@@ -43,16 +43,16 @@ body {
     font-size: var(--paragraph);
 }
 
-@media (max-width:1200px){
+/* @media (max-width:1200px){
     :root {
         --space:6rem;
         --title:7vw;
         --paragraph:1.6vw;
         --open-btn-height:1.5vw;
     }
-}
+} */
 
-@media (max-width:1200px) and (min-height:601px){
+@media (max-width:1200px){
     :root {
         --space:5rem;
         --title:10vw;
@@ -193,7 +193,7 @@ nav .container ul li div:nth-child(2){
         font-size: 4vw;
     }
 }
-@media (max-width:1200px) and (min-height:601px){
+@media (max-width:1200px){
     nav .container .sidebar {
         left: -60vw;
     }
@@ -419,7 +419,7 @@ main .hero .container .scene div h3 {
     font-size: 1.4vw;
 }
 
-@media (max-width:1200px) and (min-height:601px){
+@media (max-width:1200px){
     main .hero .container {
         /* display: flex;
         flex-direction: column-reverse; */
